@@ -18,6 +18,7 @@
   "homepage": "https://github.com/snnbotchway/incite#readme",
   "dependencies": {
     "fs-extra": "^11.1.1",
+    "mocha": "^10.2.0",
     "solc": "^0.8.19"
   },
   "devDependencies": {
