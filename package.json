@@ -1,0 +1,28 @@
+{
+  "name": "incite",
+  "version": "0.1.0",
+  "description": "Incite is a decentralised funding platform built on the Ethereum blockchain, empowering the next generation of innovators.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snnbotchway/incite.git"
+  },
+  "author": "Solomon Botchway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snnbotchway/incite/issues"
+  },
+  "homepage": "https://github.com/snnbotchway/incite#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "solc": "^0.8.19"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
