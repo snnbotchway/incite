@@ -16,6 +16,8 @@
     "test": "mocha --require ts-node/register ./test/**/*.test.ts"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "dotenv": "^16.0.3",
     "fs-extra": "^11.1.1",
     "ganache": "^7.7.7",
     "solc": "^0.8.19",
