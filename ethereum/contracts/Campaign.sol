@@ -29,7 +29,7 @@ contract Campaign {
     address public manager;
     uint256 public minimumContribution;
     uint256 public contributorsCount;
-    mapping(address => bool) contributors;
+    mapping(address => bool) public contributors;
     Request[] public requests;
 
     constructor(uint256 _minimumContribution, address creator) {
